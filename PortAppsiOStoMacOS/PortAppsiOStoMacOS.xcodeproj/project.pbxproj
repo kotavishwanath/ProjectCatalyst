@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C730A5234F6ECA00475510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C730A4234F6ECA00475510 /* AppDelegate.swift */; };
+		10C730A7234F6ECA00475510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C730A6234F6ECA00475510 /* SceneDelegate.swift */; };
+		10C730A9234F6ECA00475510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C730A8234F6ECA00475510 /* ContentView.swift */; };
+		10C730AB234F6ED300475510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C730AA234F6ED300475510 /* Assets.xcassets */; };
+		10C730AE234F6ED300475510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C730AD234F6ED300475510 /* Preview Assets.xcassets */; };
+		10C730B1234F6ED300475510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C730AF234F6ED300475510 /* LaunchScreen.storyboard */; };
+		10C730BC234F6ED300475510 /* PortAppsiOStoMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C730BB234F6ED300475510 /* PortAppsiOStoMacOSTests.swift */; };
+		10C730C7234F6ED400475510 /* PortAppsiOStoMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C730C6234F6ED400475510 /* PortAppsiOStoMacOSUITests.swift */; };
+		10C741312350838200475510 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C741302350838100475510 /* CircleImage.swift */; };
+		10C74133235084BD00475510 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C74132235084BD00475510 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C730B8234F6ED300475510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C73099234F6ECA00475510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C730A0234F6ECA00475510;
+			remoteInfo = PortAppsiOStoMacOS;
+		};
+		10C730C3234F6ED400475510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C73099234F6ECA00475510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C730A0234F6ECA00475510;
+			remoteInfo = PortAppsiOStoMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C730A1234F6ECA00475510 /* PortAppsiOStoMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortAppsiOStoMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C730A4234F6ECA00475510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10C730A6234F6ECA00475510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10C730A8234F6ECA00475510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10C730AA234F6ED300475510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C730AD234F6ED300475510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10C730B0234F6ED300475510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10C730B2234F6ED300475510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C730B7234F6ED300475510 /* PortAppsiOStoMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortAppsiOStoMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C730BB234F6ED300475510 /* PortAppsiOStoMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortAppsiOStoMacOSTests.swift; sourceTree = "<group>"; };
+		10C730BD234F6ED300475510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C730C2234F6ED400475510 /* PortAppsiOStoMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortAppsiOStoMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C730C6234F6ED400475510 /* PortAppsiOStoMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortAppsiOStoMacOSUITests.swift; sourceTree = "<group>"; };
+		10C730C8234F6ED400475510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C741302350838100475510 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		10C74132235084BD00475510 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		10C74134235089D300475510 /* PortAppsiOStoMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortAppsiOStoMacOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C7309E234F6ECA00475510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730B4234F6ED300475510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730BF234F6ED300475510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C73098234F6ECA00475510 = {
+			isa = PBXGroup;
+			children = (
+				10C730A3234F6ECA00475510 /* PortAppsiOStoMacOS */,
+				10C730BA234F6ED300475510 /* PortAppsiOStoMacOSTests */,
+				10C730C5234F6ED400475510 /* PortAppsiOStoMacOSUITests */,
+				10C730A2234F6ECA00475510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C730A2234F6ECA00475510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C730A1234F6ECA00475510 /* PortAppsiOStoMacOS.app */,
+				10C730B7234F6ED300475510 /* PortAppsiOStoMacOSTests.xctest */,
+				10C730C2234F6ED400475510 /* PortAppsiOStoMacOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C730A3234F6ECA00475510 /* PortAppsiOStoMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				10C74134235089D300475510 /* PortAppsiOStoMacOS.entitlements */,
+				10C730A4234F6ECA00475510 /* AppDelegate.swift */,
+				10C730A6234F6ECA00475510 /* SceneDelegate.swift */,
+				10C741302350838100475510 /* CircleImage.swift */,
+				10C74132235084BD00475510 /* MapView.swift */,
+				10C730A8234F6ECA00475510 /* ContentView.swift */,
+				10C730AA234F6ED300475510 /* Assets.xcassets */,
+				10C730AF234F6ED300475510 /* LaunchScreen.storyboard */,
+				10C730B2234F6ED300475510 /* Info.plist */,
+				10C730AC234F6ED300475510 /* Preview Content */,
+			);
+			path = PortAppsiOStoMacOS;
+			sourceTree = "<group>";
+		};
+		10C730AC234F6ED300475510 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10C730AD234F6ED300475510 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10C730BA234F6ED300475510 /* PortAppsiOStoMacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				10C730BB234F6ED300475510 /* PortAppsiOStoMacOSTests.swift */,
+				10C730BD234F6ED300475510 /* Info.plist */,
+			);
+			path = PortAppsiOStoMacOSTests;
+			sourceTree = "<group>";
+		};
+		10C730C5234F6ED400475510 /* PortAppsiOStoMacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10C730C6234F6ED400475510 /* PortAppsiOStoMacOSUITests.swift */,
+				10C730C8234F6ED400475510 /* Info.plist */,
+			);
+			path = PortAppsiOStoMacOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C730A0234F6ECA00475510 /* PortAppsiOStoMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C730CB234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOS" */;
+			buildPhases = (
+				10C7309D234F6ECA00475510 /* Sources */,
+				10C7309E234F6ECA00475510 /* Frameworks */,
+				10C7309F234F6ECA00475510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortAppsiOStoMacOS;
+			productName = PortAppsiOStoMacOS;
+			productReference = 10C730A1234F6ECA00475510 /* PortAppsiOStoMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10C730B6234F6ED300475510 /* PortAppsiOStoMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C730CE234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOSTests" */;
+			buildPhases = (
+				10C730B3234F6ED300475510 /* Sources */,
+				10C730B4234F6ED300475510 /* Frameworks */,
+				10C730B5234F6ED300475510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C730B9234F6ED300475510 /* PBXTargetDependency */,
+			);
+			name = PortAppsiOStoMacOSTests;
+			productName = PortAppsiOStoMacOSTests;
+			productReference = 10C730B7234F6ED300475510 /* PortAppsiOStoMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10C730C1234F6ED300475510 /* PortAppsiOStoMacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C730D1234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOSUITests" */;
+			buildPhases = (
+				10C730BE234F6ED300475510 /* Sources */,
+				10C730BF234F6ED300475510 /* Frameworks */,
+				10C730C0234F6ED300475510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C730C4234F6ED400475510 /* PBXTargetDependency */,
+			);
+			name = PortAppsiOStoMacOSUITests;
+			productName = PortAppsiOStoMacOSUITests;
+			productReference = 10C730C2234F6ED400475510 /* PortAppsiOStoMacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C73099234F6ECA00475510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Vishwanath Kota";
+				TargetAttributes = {
+					10C730A0234F6ECA00475510 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					10C730B6234F6ED300475510 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 10C730A0234F6ECA00475510;
+					};
+					10C730C1234F6ED300475510 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 10C730A0234F6ECA00475510;
+					};
+				};
+			};
+			buildConfigurationList = 10C7309C234F6ECA00475510 /* Build configuration list for PBXProject "PortAppsiOStoMacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C73098234F6ECA00475510;
+			productRefGroup = 10C730A2234F6ECA00475510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C730A0234F6ECA00475510 /* PortAppsiOStoMacOS */,
+				10C730B6234F6ED300475510 /* PortAppsiOStoMacOSTests */,
+				10C730C1234F6ED300475510 /* PortAppsiOStoMacOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C7309F234F6ECA00475510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C730B1234F6ED300475510 /* LaunchScreen.storyboard in Resources */,
+				10C730AE234F6ED300475510 /* Preview Assets.xcassets in Resources */,
+				10C730AB234F6ED300475510 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730B5234F6ED300475510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730C0234F6ED300475510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C7309D234F6ECA00475510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C730A5234F6ECA00475510 /* AppDelegate.swift in Sources */,
+				10C741312350838200475510 /* CircleImage.swift in Sources */,
+				10C74133235084BD00475510 /* MapView.swift in Sources */,
+				10C730A7234F6ECA00475510 /* SceneDelegate.swift in Sources */,
+				10C730A9234F6ECA00475510 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730B3234F6ED300475510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C730BC234F6ED300475510 /* PortAppsiOStoMacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C730BE234F6ED300475510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C730C7234F6ED400475510 /* PortAppsiOStoMacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C730B9234F6ED300475510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C730A0234F6ECA00475510 /* PortAppsiOStoMacOS */;
+			targetProxy = 10C730B8234F6ED300475510 /* PBXContainerItemProxy */;
+		};
+		10C730C4234F6ED400475510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C730A0234F6ECA00475510 /* PortAppsiOStoMacOS */;
+			targetProxy = 10C730C3234F6ED400475510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10C730AF234F6ED300475510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C730B0234F6ED300475510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C730C9234F6ED400475510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10C730CA234F6ED400475510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C730CC234F6ED400475510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortAppsiOStoMacOS/PortAppsiOStoMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PortAppsiOStoMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PortAppsiOStoMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10C730CD234F6ED400475510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortAppsiOStoMacOS/PortAppsiOStoMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PortAppsiOStoMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PortAppsiOStoMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10C730CF234F6ED400475510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				INFOPLIST_FILE = PortAppsiOStoMacOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortAppsiOStoMacOS.app/PortAppsiOStoMacOS";
+			};
+			name = Debug;
+		};
+		10C730D0234F6ED400475510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				INFOPLIST_FILE = PortAppsiOStoMacOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortAppsiOStoMacOS.app/PortAppsiOStoMacOS";
+			};
+			name = Release;
+		};
+		10C730D2234F6ED400475510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				INFOPLIST_FILE = PortAppsiOStoMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortAppsiOStoMacOS;
+			};
+			name = Debug;
+		};
+		10C730D3234F6ED400475510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFKMSVKUWP;
+				INFOPLIST_FILE = PortAppsiOStoMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.VishK.PortAppsiOStoMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortAppsiOStoMacOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C7309C234F6ECA00475510 /* Build configuration list for PBXProject "PortAppsiOStoMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C730C9234F6ED400475510 /* Debug */,
+				10C730CA234F6ED400475510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C730CB234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C730CC234F6ED400475510 /* Debug */,
+				10C730CD234F6ED400475510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C730CE234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C730CF234F6ED400475510 /* Debug */,
+				10C730D0234F6ED400475510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C730D1234F6ED400475510 /* Build configuration list for PBXNativeTarget "PortAppsiOStoMacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C730D2234F6ED400475510 /* Debug */,
+				10C730D3234F6ED400475510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C73099234F6ECA00475510 /* Project object */;
+}
